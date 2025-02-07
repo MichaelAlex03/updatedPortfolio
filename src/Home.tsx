@@ -1,19 +1,21 @@
 import React from 'react'
 import Header from './components/Header'
-import Landing from './components/content/Landing'
+import Landing from './components/Home/Landing'
+import About from './components/Home/About'
 
-const Content = () => {
+const Home = () => {
     return (
         <>
             <div >
                 <Landing />
 
-                <div>
+                <div id='Content'>
                     <Header />
+                    <About />
                 </div>
             </div>
         </>
     )
 }
 
-export default Content
+export default Home

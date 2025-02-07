@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Header = () => {
+
+
   return (
     <header className='flex flex-row items-center justify-center bg-[#151C25] py-6 px-10'>
       

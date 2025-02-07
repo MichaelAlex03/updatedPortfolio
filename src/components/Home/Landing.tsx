@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Landing = () => {
+
+    const scrollToContent = () => {
+        document.getElementById('Content')?.scrollIntoView({behavior: 'smooth'});
+    }
+
     return (
         <section className='flex justify-center bg-[#151C25] h-screen' id='home'>
             <div className='flex flex-col text-white justify-center items-center w-3/4 md:w-1/2 gap-2'>
@@ -8,9 +13,8 @@ const Landing = () => {
                 <h3 className='text-center text-base md:text-2xl lg:text-3xl '>Aspiring full-stack developer creating dynamic, user-focused web apps</h3>
                 <div className='z-10 mt-3'>
                     <button className='button_main flex items-center gap-2 text-base md:text-xl'
-                        onClick={() => {}}>
+                        onClick={scrollToContent}>
                         Check out My Work
-                        <i className='bx bx-down-arrow-alt'></i>
                     </button>
                 </div>
             </div>

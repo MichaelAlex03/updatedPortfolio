@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Content from './Content';
+import Home from './Home';
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Content />}/>
+        <Route path='/' element={<Home />}/>
       </Routes>
     </BrowserRouter>
   )
