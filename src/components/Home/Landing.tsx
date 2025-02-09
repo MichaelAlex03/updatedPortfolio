@@ -1,7 +1,7 @@
 const Landing = () => {
 
     const scrollToContent = () => {
-        document.getElementById('Content')?.scrollIntoView({behavior: 'smooth'});
+        document.getElementById('content')?.scrollIntoView({behavior: 'smooth'});
     }
 
     return (
